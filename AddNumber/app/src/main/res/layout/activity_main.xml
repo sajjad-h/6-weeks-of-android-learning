@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewFirstNumber"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="First Number"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/firstNumberId"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="40dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewSecondNumber"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:text="Second Number"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/secondNumberId"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="90dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="200dp"
+        android:text="ADD" />
+
+    <TextView
+        android:id="@+id/textViewAnswer"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:text="0"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
